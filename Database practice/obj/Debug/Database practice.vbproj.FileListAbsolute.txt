@@ -1,0 +1,9 @@
+F:\Web Developing\Visual Studio\Database practice\Database practice\bin\Database practice.dll.config
+F:\Web Developing\Visual Studio\Database practice\Database practice\bin\Database practice.dll
+F:\Web Developing\Visual Studio\Database practice\Database practice\bin\Database practice.pdb
+F:\Web Developing\Visual Studio\Database practice\Database practice\bin\Database practice.xml
+F:\Web Developing\Visual Studio\Database practice\Database practice\obj\Debug\Database_practice.Resources.resources
+F:\Web Developing\Visual Studio\Database practice\Database practice\obj\Debug\Database practice.vbproj.GenerateResource.Cache
+F:\Web Developing\Visual Studio\Database practice\Database practice\obj\Debug\Database practice.dll
+F:\Web Developing\Visual Studio\Database practice\Database practice\obj\Debug\Database practice.xml
+F:\Web Developing\Visual Studio\Database practice\Database practice\obj\Debug\Database practice.pdb

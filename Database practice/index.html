@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport, content=width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Firebase Database Practice ❤</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyCSLCYNDDrHRMbcUoZpU-ll0kxWLHc_iGE",
+                authDomain: "shahtylish.firebaseapp.com",
+                databaseURL: "https://shahtylish.firebaseio.com",
+                projectId: "shahtylish",
+                storageBucket: "shahtylish.appspot.com",
+                messagingSenderId: "51050182424",
+                appId: "1:51050182424:web:bd7ae417116c7c6e4f106d"
+            };
+  // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+    </script>
+    <style>
+        #editDiv{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="name" name="name" placeholder="Enter Name">
+    <input id="age" name="age" placeholder="Enter Age">
+    &emsp;
+    <button id="save" onclick="saveData()">Save Data to Firebase Database</button>
+    
+    <br><br>
+
+    <input id="getID" name="get" placeholder="Enter unique ID to get data" />
+    &emsp;
+    <button id="get" onclick="getData()">Get Data From Firebase Database</button>
+    
+    <br><br>
+    
+    <input id="uniqNo" name="unique" placeholder="Enter unique ID to delete" />
+    &emsp;
+    <button id="delete" onclick="deleteData()">Delete data from firebase database</button>
+
+    <br /><br />
+
+    <div id="editDiv">
+        <label for="editKey">Unique Key:</label>
+        <input id="editKey" name="editKey" placeholder="Unique Key" />
+
+        <label for="editName">Name:</label>
+        <input id="editName" name="EditName" placeholder="Name" />
+
+        <label for="editAge">Age:</label>
+        <input id="editAge" name="EditAge" placeholder="Age" />
+        &emsp;
+        <button id="edit" onclick="editData()">Edit Data</button>
+    </div>
+
+    <br />
+
+    <button id="allData" onclick="getAllData()">Get All data from firebase database</button>
+
+
+    <script src="code.js"></script>
+
+</body>
+</html>
